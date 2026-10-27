@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data files (too large for git)
+data/*.nc
+data/*.xlsx
+data/*.zip
+data/*.geojson
+!data/README.md
+
+# IMD raw data
+imd_data/
+imd_data_2026/
+imd_precipitation/
+
+# WorldCover tiles
+**/worldcover_tiles/
+
+# Output figures
+outputs/
+gap_fill_results/
+plots/
+*.png
+!README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
